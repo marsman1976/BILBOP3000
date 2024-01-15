@@ -1,4 +1,4 @@
-const spans = document.querySelectorAll('.service-text .word span');
+const spans = document.querySelectorAll('.word span');
 
 spans.forEach((span, idx) => {
 	span.addEventListener('click', (e) => {
