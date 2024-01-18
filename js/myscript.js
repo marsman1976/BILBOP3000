@@ -13,3 +13,16 @@ spans.forEach((span, idx) => {
 		span.classList.add('active');
 	}, 750 * (idx+1))
 });	
+
+
+let carright=document.getElementById("carright");
+let carleft=document.getElementById("carleft");
+window.onscroll=function(){
+     
+	let value=scrollY;
+	if(scrollY>=10){
+		carleft.style.left=value+'px'
+
+	}
+	
+}
